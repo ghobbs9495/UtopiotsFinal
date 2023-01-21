@@ -3,13 +3,13 @@ import { ethers, BigNumber } from 'ethers'
 import { ExternalProvider, Web3Provider } from '@ethersproject/providers';
 import detectEthereumProvider from '@metamask/detect-provider';
 import NftContractType from '../lib/NftContractType';
-import CollectionConfig from '../../../../smart-contract/config/CollectionConfig';
+import CollectionConfig from '../../../../minting-dapp/CollectionConfig';
 import NetworkConfigInterface from '../../../../smart-contract/lib/NetworkConfigInterface';
 import CollectionStatus from './CollectionStatus';
 import MintWidget from './MintWidget';
 import Whitelist from '../lib/Whitelist';
 
-const ContractAbi = require('../../../../smart-contract/artifacts/contracts/' + CollectionConfig.contractName + '.sol/' + CollectionConfig.contractName + '.json').abi;
+const ContractAbi = require('../../../../minting-dapp/contracts/' + CollectionConfig.contractName + '.sol/' + CollectionConfig.contractName + '.json').abi;
 
 interface Props {
 }
