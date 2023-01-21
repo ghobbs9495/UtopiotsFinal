@@ -1,5 +1,5 @@
-import CollectionConfigInterface from '../lib/CollectionConfigInterface';
-import { ethereumTestnet, ethereumMainnet } from '../lib/Networks';
+import CollectionConfigInterface from '../minting-dapp/CollectionConfigInterface';
+import { ethereumTestnet, ethereumMainnet } from '../minting-dapp/Networks';
 import { openSea } from '../lib/Marketplaces';
 import whitelistAddresses from './whitelist.json';
 
